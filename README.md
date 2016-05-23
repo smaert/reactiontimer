@@ -1,4 +1,4 @@
-# reactiontimer
+# Reaction timer
 
 An Arduino based reaction timer for visual and auditory stimuli
 Watch demo: https://youtu.be/ta31WT_Cn5o
