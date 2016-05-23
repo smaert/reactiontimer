@@ -145,7 +145,7 @@ void setup() {
              delay(20);
             }
            delay(1000);
-           while (digitalRead(buttonPin)==false) {}                    // leave the message on the screen for 5 seconds
+           while (digitalRead(buttonPin)==false) {}                    // leave the message on the screen
            isTiming = false;               // ready to start timing again
            prepareState = true;            // ready to start all over
          }
@@ -218,7 +218,7 @@ void setup() {
  
            }
            delay(1000);
-           while (digitalRead(buttonPin)==false) {}                    // leave the message on the screen for 5 seconds
+           while (digitalRead(buttonPin)==false) {}                    // leave the message on the screen
            isTiming = false;               // ready to start timing again
            prepareState = true;            // ready to start all over
          }
